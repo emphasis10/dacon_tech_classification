@@ -1,0 +1,35 @@
+{
+    "cols": [
+        "요약문_한글키워드", 
+        "과제명",
+        "요약문_연구목표",
+        "요약문_연구내용"
+    ],
+    "data": {
+        "train_data_path" : "./resource/data/train.csv",
+        "test_data_path": "./resource/data/test.csv"
+    },
+    "seq_len": 500,
+    "vocab_size": 32000,
+    "model": {
+        "type": "cnn",
+        "cnn": {
+            "pass_num": 2,
+            "kernel_list": [3, 7]
+        }
+    },
+    "training": {
+        "batch_size": 256,
+        "valid_ratio": 0.2,
+        "epochs": 1
+    },
+    "tokenizer": {
+        "type": "keras",
+        "keras": {
+            "char_level": true
+        },
+        "spm": {
+            "model_type": "bpe"
+        }
+    }
+}

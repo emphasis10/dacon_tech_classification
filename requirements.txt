@@ -1,0 +1,11 @@
+tensorflow
+tensorflow-addons
+numpy
+pandas
+nltk
+numpy
+pandas
+sentencepiece
+sklearn
+gensim
+keras-tcn

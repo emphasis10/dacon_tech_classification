@@ -8,6 +8,13 @@ to-do
 세팅 읽어서 cached 된 파일 있는지 검사하고 있으면
 status 관리해서 로드한 데이터가 tonizing이 필요한지 표시할 것
 파일 이름 만드는 규칙 생각할 것
+
+# numpy load from cache
+# X_train = np.load('./resource/cache/X_train_bpe32000_seq500_v2.npy')
+# X_test = np.load('./resource/cache/X_test_bpe32000_seq500_v2.npy')
+# Y_train = np.load('./resource/cache/Y_train_bpe32000_seq500_v2.npy')
+# Y_primary_train = np.load('./resource/cache/Y_primary_bpe32000_seq500_v2.npy')
+
 '''
 
 class DataLoader():

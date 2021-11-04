@@ -11,6 +11,5 @@ First of all, you should download data from Dacon [Competition site](https://dac
 $ pip install -r requirements.txt
 ```
 
-# Contribution
+# Contributor
 - Eunsik Lee(@emphasis10)
-- Dayoung Kwon(@DayoungKwon)
